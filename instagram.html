@@ -182,7 +182,7 @@
 localStorage.setItem("user", JSON.stringify({ email }));
 
 // ✅ تحويل مع تمرير الإيميل في URL
-window.location.href = "web.html?voter_id=" + encodeURIComponent(email);
+window.location.href = "./web.html?voter_id=" + encodeURIComponent(email);
 
     } catch (err) {
       alert("❌ Error: " + err.message);
